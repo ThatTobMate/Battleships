@@ -1,0 +1,39 @@
+body{
+  font-family: monospace;
+}
+
+h1{
+  text-align: center;
+}
+
+#battleships_grid{
+  text-align: center;
+  width: 35%;
+  margin: 0 auto;
+}
+
+.table{
+  width: 40px;
+  height: 30px;
+  display: inline-block;
+  background: rgba(255,255,255,0.7);
+  border: 1px solid black;
+}
+ 
+#play{
+  position: absolute;
+  top: 200;
+  left: 250;
+}
+
+#attempts{
+  width: 200px;
+  position: absolute;
+  top: 150;
+  left: 210;
+  font-size: 2em;
+}
+
+.hidden{
+  display: none;
+}
